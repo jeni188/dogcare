@@ -1,0 +1,463 @@
+Muna Karki
+.btn-white{
+background-color: #ffffff;
+border: 1px solid #ffffff;
+color: blue;
+margin-right: 10px;
+}
+.btn-white:hover {
+    background-color: transparent;
+    color: #ffffff;
+    border-color: #ffffff;
+}
+.btn-transparent {
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    background-color: transparent;
+}
+.btn-transparent:hover{
+    background-color: white;
+    color: blue;
+}
+.header {
+    background-image: url(https://wp.w3layouts.com/dogscare/wp-content/themes/dogscare/assets/images/banner1.jpg);
+    height: 700px;
+}
+nav {
+    font-size: 100%;
+    padding: 1rem;
+}
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    list-style: none;
+}
+.header nav li a {
+    color: #ffffff;
+}
+nav li i {
+    color: #ffffff;
+}
+nav li:first-child {
+    flex-basis: auto;
+    margin-right: auto;
+    text-align: left;
+    font-size: larger;
+}
+.header article h1 {
+    color: #ffffff;
+}
+.header article p {
+    color: #ffffff;
+    text-align: left;
+}
+.header article ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+}
+.header .container {
+    display: flex;
+    height: 600px;
+    align-items: center;
+}
+.header nav form {
+    position: relative;
+}
+.header nav button {
+    position: absolute;
+    right: 0;
+    border: 0;
+    background: 0;
+}
+.about figure img {
+    max-width: 100%;
+}
+.about {
+    padding-top: 90px;
+}
+.about article h2 {
+    color: #060606;
+}
+.about article p {
+    font-size: 16px;
+    line-height: 28px;
+    color: #707070;
+    letter-spacing: .4px;
+    text-align: left;
+}
+.about .fa-solid {
+    color: red;
+}
+.about .fa-regular {
+    color: red;
+}
+.about ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+.about ul li p {
+    font-size: 16px;
+    line-height: 28px;
+    color: #707070;
+    letter-spacing: .4px;
+    text-align: left;
+}
+.about article {
+    padding-left: 30px;
+    margin-bottom: 90px;
+}
+.wedo {
+    padding-top: 90px;
+    background-color: #f5f5f5;
+}
+.wedo .weinfo p {
+    text-align: center;
+    font-size: 16px;
+    line-height: 28px;
+    color: #707070;
+    letter-spacing: .4px;
+}
+.wedo .weinfo h2 {
+    color: black;
+    text-align: center;
+}
+.wedo .cardinfo h4 {
+    text-align: left;
+    padding-left: 10px;
+}
+.wedo .cardinfo p {
+    text-align: left;
+    padding-left: 10px;
+    color: #707070;
+    letter-spacing: .4px;
+    font-size: 16px;
+}
+/* .wedo .cardinfo a {
+    text-align: left;
+    padding-left: 10px;
+} */
+.wedo-card figure img {
+    width: 100%;
+}
+.wedo .wedo-card  .cardinfo a {
+    color: red;
+    text-align: left;
+    padding-left: 10px;
+}
+.customer {
+    padding:90px;
+}
+/* .customer .happy {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    grid-row-gap: 40px;
+    list-style: none;
+} */
+.customer article h3 {
+    font-size: 35px;
+    line-height: 45px;
+    font-weight: 600;
+}
+.customer article .paragraph {
+    font-size: 16px;
+    line-height: 28px;
+    color: #707070;
+    letter-spacing: .4px;
+    text-align: left;
+}
+.customer ul li span {
+    font-size: 28px;
+    line-height: 34px;
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+.customer ul li p {
+    margin: 0;
+    padding: 0;
+}
+.customer ul li .fa-solid {
+    font-size: 30px;
+    color:#00008B;
+}
+.customer ul {
+    list-style: none;
+    /* display: flex;
+    text-align: left; */
+}
+.customer .review article p {
+    position: relative;
+    text-indent: 1rem;
+    padding-top: 20px;
+} 
+.sat {
+    display: flex;
+    margin-right: 50px;
+}
+.customer .review article p::before{
+    position: absolute;
+    content: "\f10d";
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    top: 1px;
+    left: -20px;
+}
+.customer .happy h2 {
+    color: black;
+}
+.customer .review p {
+    text-align: left;
+    font-size: 16px;
+    line-height: 28px;
+    color: #707070;
+    letter-spacing: .4px;
+}
+.customer .review img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+.customer .review article p::after{
+    content: '"';
+}
+.customer .review img {
+    width: 100px;
+    height: 100px;
+}
+.rounded-circle {
+    border-radius: 50%;
+    max-width: 100%;
+    height: auto;
+}
+.img-fluid {
+    border-radius: 50%;
+    max-width: 100%;
+    height: auto;
+}
+.customer .review h5 {
+    color: #00008B;
+}
+.gallary {
+    padding-top: 90px;
+    background-color: #f5f5f5;
+}
+.gallary .ourgallary {
+    text-align: center;
+}
+.gallary .ourgallary h2 {
+    color: black;
+}
+.right-block-bg {
+    justify-content: center;
+}
+
+.dog {
+    padding-top: 90px;
+}
+.dog .col-md-4 img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+.dog .col-md-4 figure {
+    margin: 0 0 1rem;
+}
+.dog .col-sm-6 p {
+    font-size: 16px;
+    line-height: 28px;
+    color: #707070;
+    letter-spacing: .4px;
+    text-align: left;
+}
+.dog .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.right-block-bg i {
+    font-size: 25px;
+    line-height: 30px;
+    color:red;
+}
+.fa-solid {
+    display: inline-block;
+}
+.right-block-back i {
+    font-size: 25px;
+    line-height: 30px;
+    color:red;
+}
+.pet article h6,h2 {
+    color: white;
+}
+.pet .container{
+    display: flex;
+    padding-top: 250px;
+}
+.pet {
+    background-image: url(https://wp.w3layouts.com/dogscare/wp-content/themes/dogscare/assets/images/bg.jpg);
+    height: 700px;
+    background-attachment: fixed;
+}
+/* .pet article .btn-white {
+    text-align: left;
+} */
+/* .pet article ul li {
+    text-align: left;
+} */
+.news {
+    padding-top: 90px;
+    padding-bottom: 40px;
+}
+.news .latestnews h2 {
+    color: black;
+}
+.news .latestnews h2,p {
+    text-align: center;
+}
+.news .date {
+font-size: 16px;
+margin-top: 0;
+font-style: italic;
+font-weight: 500;
+border-bottom: none;
+padding-bottom: 0px;
+text-align: right;
+color:#1a2c79;
+}
+.news .hlo {
+    font-size: 1.75rem;
+    line-height: 27px;
+    color: #060606;
+    display: block;
+    font-weight: 600;
+    display: block;
+}
+.news .read {
+    text-decoration: none;
+}
+.news .btn-news {
+    text-decoration: none;
+}
+
+.footer {
+    padding-top: 90px;
+    background-color: #060606;
+}
+.footer .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.footer a .logo {
+    font-size: 32px;
+    color: #fff;
+    display: block;
+    font-weight: 600;
+}
+.footer .fa-solid {
+    color: red;
+    font-weight: 900;
+}
+.footer .footer-p p {
+    color: #d4d4d4;
+}
+.mt-4 {
+    margin-top: 1.5rem;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: .4px;
+    text-align: left;
+}
+.footer .row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.col-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+.footer p .copy-text {
+    font-size: 15px;
+    color: #d4d4d4;
+    font-weight: 500;
+}
+.footer p .copy-text a {
+    color: red;
+    text-decoration: underline;
+}
+.footer h3 {
+    font-size: 19px;
+    line-height: 25px;
+    margin-bottom: 30px;
+    font-weight: 600;
+    color: #fff;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+}
+.footer li {
+    display: block;
+    list-style: none;
+    margin: 10px 0;
+}
+.footer li a {
+    font-size: 15px;
+    line-height: 25px;
+    color: #d4d4d4;
+    font-weight: 500;
+}
+.pl-0 {
+    padding-left: 0
+}
+.col-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+.footer form {
+    display: flex;
+    margin-bottom: 15px;
+}
+.footer .subscribe button {
+    background: red;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    padding: 12px 12px;
+    cursor: pointer;
+    width: 20%;
+    color: #fff;
+}
+.footer .footer-p p {
+    color: #d4d4d4;
+    text-align: left;
+}
+.footer .social {
+    display: inline;
+}
+.footer ul .social li a {
+    color: #fff;
+    width: 35px;
+    height: 35px;
+    background: rgb(41 41 41 / 27%);
+    display: inline-block;
+    border-radius: 50%;
+    text-align: center;
+}
+.footer ul .social li a span {
+    font-size: 15px;
+    line-height: 35px;
+}
+.footer .social .fa {
+    display:inline-block;
+}

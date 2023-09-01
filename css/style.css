@@ -1,0 +1,310 @@
+.btn-white {
+    background-color: #fcf9f9;
+    padding: 0.5rem;
+    border: 1px solid;
+    border-radius: 5px;
+    border-color: #fcf9f9;
+    text-decoration: none;
+    color: #594ca8;
+}
+
+.btn-white:hover {
+    border-color: #fcf9f9;
+    color: #f5f4fa;
+}
+
+.btn-transparent {
+    background-color: transparent;
+    border: 1px solid;
+    padding: 0.5rem;
+    border-radius: 5px;
+    border-color: #fcf9f9;
+    text-decoration: none;
+    color: white;
+
+
+}
+
+.btn-transparent:hover {
+
+    background-color: #fcf9f9;
+    color: #594ca8;
+
+}
+
+/* head section */
+/* nav and background image */
+.head {
+    background-image: url(https://wp.w3layouts.com/dogscare/wp-content/themes/dogscare/assets/images/banner1.jpg);
+    /* height: 700px; */
+}
+
+.head .container {
+    display: flex;
+    height: 500px;
+    align-items: center;
+
+}
+
+.head nav {
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-between;
+
+}
+
+.head nav .fa-paw {
+    color: #ff6347;
+}
+
+.head .navbar-brand {
+    color: #000;
+    margin: 0;
+    padding: 0;
+    font-size: 30px;
+    font-weight: 600px;
+}
+
+.head .navbar-brand:hover {
+    color: #ff6347;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav li a {
+    color: #fcf9f9;
+    padding: 8px 15px;
+}
+
+nav li a {
+    text-decoration: none;
+}
+
+nav li a:hover {
+    text-decoration-line: underline;
+}
+
+
+
+/* nav and background image */
+
+
+.head .artical h1 {
+    padding: 1rem;
+    font-size: 2rem;
+    color: #fcf9f9;
+}
+
+.head .artical p {
+    font-size: 1rem;
+    color: #fcf9f9;
+
+}
+
+.head .artical li {
+    display: inline-block;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.head .artical li a {
+
+    text-decoration: none;
+    display: inline-block;
+}
+
+/* head section */
+
+/* about section */
+
+.about {
+    padding: 4rem 1rem 10rem 1rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.about ul{
+    display: flex;
+    list-style: none;
+}
+
+.about figure img  {
+    width:100%;
+}
+
+.about ul .fa-paw{
+    color: #ff6347;
+
+}
+.about ul .fa-hand-peace{
+    color:#ff6347;
+}
+/* about section */
+
+/* we do section */
+
+.wedo{
+    background-color:#fafafa;
+    padding: 4rem 1rem 10rem 1rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.wedo .wedo-info h2{
+    text-align: center;
+}
+.wedo-info{
+    margin-bottom: 30px;
+}
+
+ .wedo-info p{
+    text-align: center;
+    font-size: 1.25rem;
+    width: 700px;
+    margin-right: auto;
+    margin-left: auto;
+    line-height: 1.6;
+   
+}
+.wedo figure img{
+    width: 100%;
+}
+/* happy customer sections */
+
+.happy-customer .customer p{
+    width: 550px;
+}
+.cust-satisfaction{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap:20px;
+    grid-row-gap:40px;
+}
+.mt-5{
+    margin-top: 3rem;
+}
+.cust-info{
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: flex-start;
+    grid-gap:15px
+}
+.cust-info .fa-user-plus{
+    font-size: 30px;
+    color:#594ca8 ;
+}
+.cust-info .fa-thumbs-up{
+    font-size: 30px;
+    color: #594ca8;
+}
+
+.happy-cust img{
+    border-radius: 50%;
+}
+.happy-cust ul li {
+list-style: none;
+
+}
+.happy-cust h2{
+    font-weight: 600;
+    font-size: 16px;
+    color:#594ca8;
+}
+.happy-cust h3{
+    font-weight: 600;
+    font-size: 16px;
+   color: #594ca8;
+}
+.happy-cust p{
+    display: inline;
+    
+}
+/* our gallery */
+.our-gallery article h2{
+    text-align: center;
+}
+.our-gallery article p{
+    text-align: center;
+    width: 700px;
+    margin-right: auto;
+    margin-left: auto;
+    line-height: 1.6;
+}
+/* dogs -describe section */
+.dogs-discribe ul li{
+    list-style: none;
+}
+.dogs-discribe .fa-solid{
+   color:#ff6347;
+}
+/* background fix */
+.background-fix{
+    background-image:  url(https://wp.w3layouts.com/dogscare/wp-content/themes/dogscare/assets/images/bg.jpg);
+background-attachment: fixed;
+}
+.petlovers p{
+    color: #eee;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 20px;
+}
+.petlovers h2{
+    font-size: 45px;
+    line-height: 55px;
+    color: #fff;
+    margin: 20px 0;
+    font-weight: 600;
+    text-transform: capitalize;
+    padding: 1rem;
+    font-size: 2rem;
+}
+
+.background-fix .container {
+    display: flex;
+    height: 500px;
+    align-items: center;
+
+}
+
+
+
+
+/* letest news section */
+
+.latest-news{
+    background-color:#fafafa;
+    padding: 4rem 1rem 10rem 1rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.latest-news .news h3{
+    text-align: center;
+}
+.news{
+    margin-bottom: 30px;
+}
+
+ .news p{
+    text-align: center;
+    font-size: 1.25rem;
+    width: 700px;
+    margin-right: auto;
+    margin-left: auto;
+    line-height: 1.6;
+   
+}
+.latest-news figure img{
+    width: 100%;
+}
+
+.news-card  p{
+    text-align: end;
+   
+}
+
